@@ -7,7 +7,7 @@ set -e
 experiment_id=$1
 
 # Flags
-run_feature_extraction=0
+run_feature_extraction=1
 run_duration_training=0
 run_acoustic_training=0
 run_evaluations=0
