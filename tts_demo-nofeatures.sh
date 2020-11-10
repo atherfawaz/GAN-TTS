@@ -8,9 +8,9 @@ experiment_id=$1
 
 # Flags
 run_feature_extraction=0
-run_duration_training=1
-run_acoustic_training=1
-run_evaluations=1
+run_duration_training=0
+run_acoustic_training=0
+run_evaluations=0
 
 generated_audio_dir=./generated/${experiment_id}
 checkpoints_dir=./checkpoints/${experiment_id}
